@@ -1,0 +1,32 @@
+[
+    {
+          "fruitName":"Cherry",
+          "inSeason":"false" ,
+          "unitCost":1.10 ,
+          "unitWeight":"lb"
+      },
+    {
+          "fruitName":"Maracuyá",
+          "inSeason": "false",
+          "unitCost": 1.20,
+          "unitWeight":"lb"
+      },
+   {   
+          "fruitName":"Oranges",
+          "inSeason": "true",
+          "unitCost": "1.30",
+          "unitWeight":"lb"
+      }, 
+    {
+          "fruitName":"Papaya",
+          "inSeason": "true",
+          "unitCost": 2.00,
+          "unitWeight":"lb"
+      }, 
+    {
+          "fruitName": "Mango",
+          "inSeason": "false",
+          "unitCost": "1.50",
+          "unitWeight": "lb"
+        }
+  ]

@@ -1,6 +1,6 @@
-# Growers Code Challenge
-
-## The challenge was to create a program that does the following:
+![Banner](./assets/Banner.png)
+<br><br><br>
+# The challenge was to create a program that does the following:
 
 1. Accept a file as input
 
