@@ -4,7 +4,7 @@
 
 let fileHandle;
 let searchFileBtn = document.getElementById('search-file-btn');
-let p = document.getElementById('textarea');
+let p = document.querySelector('.textarea');
 
 async function stringVal(){
     [fileHandle] = await window.showOpenFilePicker();
@@ -26,19 +26,25 @@ searchFileBtn.addEventListener('click',stringVal)
 
 let searchReplaceBtn = document.getElementById('search-replace-btn');
 
-function searchReplace(stringVal){
+function searchReplace(){
 
     let searchValue = document.getElementById('search-value').value;
     let replaceValue = document.getElementById('replace-value').value;
   
+  let test = document.querySelector('.test');
+
   
+
+  while(test.textContent.indexOf(searchValue) != -1){
+    test.textContent = test.textContent.replace(searchValue,replaceValue);
+  }
    
 
     
 
 }
 
-searchReplaceBtn.addEventListener('click', searchReplace(stringVal));
+searchReplaceBtn.addEventListener('click', searchReplace);
 
 
 // //getting data from json file 

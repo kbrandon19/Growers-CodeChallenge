@@ -1,14 +1,16 @@
-# 1. Accept a file as input
+## 1. Accept a file as input
 
-As far as the file that's to be inputted I'm was unsure if I will be from a json file or a document. So I did two ways. 
+As far as the file that's to be inputted I was initially unsure if it would be from a json file or a document. So I did two ways. 
 
-## JSON
+### JSON
 The first way is with a JSON file. The information is completely made up and was created specific for this challenge.
 
-<!-- # 2. Accept a string value as a "search parameter"
+## 2. & 3. Accept a string value as a "search parameter". Accept a string value as a "replacement parameter"
 
-# 3. Accept a string value as a "replacement parameter"
+To meet these requirements I placed them inside a single function named ```searchReplace()```. Here the search and replacement of words will occur once the button is clicked.
 
+
+<!--
 # 4. Count every occurrence of the value of the "search parameter" in the file
 
 # 5. Replace each occurance of the "search parameter" with the value of the "replacement parameter"
