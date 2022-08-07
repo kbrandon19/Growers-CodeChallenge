@@ -1,7 +1,22 @@
-p{
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    padding:0 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textarea{
     width:auto;
+    max-width:600px;
     height:auto;
-    padding:2rem;
+    padding:10px;
     border:2px solid teal;
     border-radius: 12px;
 }
