@@ -24,7 +24,7 @@
 <hr><br>
 As far as the file that's to be inputted I was unsure if it would be from a json file or an uploaded file. I took the approach if there was going to be a simple text file uploaded.
 
-For the example text I create 3 separate files, 2 text files and one json file, just to test it later on.
+For the example text I create 2 separate files, 1 text files and one json file. The file I used to test my code was the example_file.txt and the parameters were blue and red.
 
 Using fileHandle was new to me and it was interesting to see how it work after reading more about it in MDN Web Docs.
 <br><br>
@@ -76,7 +76,8 @@ To correct this I put it inside of a while loop, this ensure that every occuranc
 #2 I was testing some things out when it came to passing the searchValue. When I console.log it I would only get undefined. Unsure why I looked back at the function parameter and I thought it could be how I was passing the parameters. First I had 
 
 `function countString(stringVal, searchValue){...}` but I though about having the whole searchReplace function as the parameter, despite it being inside of that function, weird right? But, it worked. 
-
+<hr>
+#3 Getting the counter to work was more difficult than I expected. I looked over my code and could not determine what the issue was. This prevented me from moving on to accomplish task #6 and #7.
 
 <hr>
 <br><br>

@@ -41,14 +41,14 @@ function searchReplace(e, stringVal) {
 
     let counter = 0;
 
-    for (i = 0; i < a.length; i++) {
-      if (searchValue === (a[i])) 
-      counter++;
-    }
+    // for (i = 0; i < a.length; i++) {
+    //   if (searchValue === (a[i])) 
+    //   counter++;
+    // }
     
-    return counter;
+    // return counter;
   }
-console.log(counter);
+
   countString();
 }
 
